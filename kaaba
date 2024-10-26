@@ -1,0 +1,25 @@
+<!-- kaaba.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaaba</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Kaaba%2C_Mecca%2C_Saudi_Arabia.jpg/1200px-Kaaba%2C_Mecca%2C_Saudi_Arabia.jpg" alt="Kaaba">
+</body>
+</html>
