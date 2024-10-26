@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Rackton</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        input {
+            padding: 10px;
+            font-size: 1em;
+            width: 300px;
+        }
+    </style>
+    <script>
+        function checkCode() {
+            const input = document.getElementById('secretCode').value;
+            const secretCode = "efremontst"; // Updated secret code
+            if (input === secretCode) {
+                window.location.href = 'kaaba.html'; // Redirect to the Kaaba page
+            } else {
+                alert("Incorrect code! Please try again.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>ZHPORPH WR UDFNWRQ</h1>
+    <input type="text" id="secretCode" placeholder="Enter the code..." onkeypress="if(event.key === 'Enter') checkCode()">
+</body>
+</html>
